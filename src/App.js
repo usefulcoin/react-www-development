@@ -6,6 +6,7 @@ import Engagements from './pages/Engagements';
 import Publications from './pages/Publications';
 import Talent from './pages/Talent';
 import Blog from './pages/Blog';
+import Disclaimer from './pages/Disclaimer';
 
 import Intro from './components/Intro';
 import Header from './components/Header';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
             <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
             <Route path="/:id"><li><Link to="/Publications">Publications</Link></li></Route>
+            <Route path="/:id"><li><Link to="/Disclaimer">Disclaimer</Link></li></Route>
           </ul>
           <ul className="icons">
             <li><a href="https://medium.com/usefulcoin" className="icon brands fa-medium"><span className="label">Medium</span></a></li>
