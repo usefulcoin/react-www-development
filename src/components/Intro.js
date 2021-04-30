@@ -10,7 +10,7 @@ class Intro extends React.Component {
         <h2>USEFUL COIN</h2>
         <p>collaborative research & strategic engagement</p>
         <ul className="actions">
-          <li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+          <li><a href="#about" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
         </ul>
       </div>
       {/* End Intro */}
