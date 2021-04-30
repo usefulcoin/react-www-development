@@ -17,7 +17,7 @@ class About extends React.Component {
             call</a>.</p>
         </header>
         <ul className="actions special">
-          <li><a mailto="info@usefulcoin.com" className="button large">Email Us</a></li>
+          <li><a href="mailto:info@usefulcoin.com" className="button large">Email Us</a></li>
         </ul>
         <p />
       </article>
