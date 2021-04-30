@@ -25,5 +25,10 @@ npmversion=$(npm --version) && echo [$0] verified the installation of npm versio
 yarnversion=$(yarn --version) && echo [$0] verified the installation of yarn version $yarnversion.
 
 # step 4: yarn up.
-if $debug ; then sudo yarn && yarn start ; fi
-sudo yarn install > /dev/null 2>&1 && echo [$0] yarned up.
+# if $debug ; then sudo yarn && yarn start ; fi
+# sudo yarn install > /dev/null 2>&1 && echo [$0] yarned up.
+#
+# or
+#
+# npm install react-router-dom
+# npm start
