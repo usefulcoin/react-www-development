@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Disclaimer extends React.Component {
+class Privacy extends React.Component {
   render() {
   return (
     <div>
@@ -99,4 +99,4 @@ class Disclaimer extends React.Component {
   }
 }
 
-export default Disclaimer;
+export default Privacy;
