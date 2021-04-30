@@ -45,6 +45,7 @@ function App() {
             <Route path="/Publications"><Publications /></Route>
             <Route path="/Talent"><Talent /></Route>
             <Route path="/Blog"><Blog /></Route>
+            <Route path="/Disclaimer"><Disclaimer /></Route>
           </Switch>
         </div>
         {/* End Main */}
