@@ -8,7 +8,7 @@ class About extends React.Component {
       {/* Start Content */}
         <article className="post featured">
           <header className="major">
-            <span className="date"><img src="images/usefulcoin-blackicon-64x64px.png" width="20%" alt="brand icon" /></span>
+            <span className="date"><img src="images/usefulcoin-blackicon-64x64px.png" width="10%" alt="brand icon" /></span>
             <h1 class="major" id="about">RESEARCH & STRATEGY</h1>
             <p>Useful Coin is a research and strategy consultancy based in Texas. We enjoy collaborating with orangizations of all stripes on marketing
               research and business development. That said, we have a penchant for collaborating teams in the cryptocurrency industry. Most of
