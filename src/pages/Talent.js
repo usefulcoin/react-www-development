@@ -24,7 +24,7 @@ class Trade extends React.Component {
             <img src="images/mason-350x350px.png" alt="mason" />
           </a>
         </span>
-        <p>Mason is an aspiring computer scientist. He is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio. When time permits, he assits with the development of the Useful Coin proprietary trading system and various other research and development initiatives.</p>
+        <p>Mason is an aspiring computer scientist. He joined Useful Coin in April 2021, but is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio. When time permits, he assits with the development of Useful Coin's proprietary trading systems and various other research and development initiatives.</p>
         <p>During his studies, Mason discovered cryptocurrencies and became completely enthralled with its allure of investing, trading, and decentralization. During his free time, Mason enjoys writing scripts and spending time with his weim reiner.</p>
       {/* End Content */}
     </div>
