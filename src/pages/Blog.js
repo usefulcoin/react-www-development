@@ -8,8 +8,17 @@ class Trade extends React.Component {
         <h1 class="major" id="blog">Medium Publication</h1>
         <p>Our <a href="https://medium.com/usefulcoin" target="_medium">Medium Publication</a> reflects our views on the industry:</p>
         <div id="medium-widget">
-          <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-          <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/usefulcoin","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+          MediumWidget.Init({
+            renderTo: "#medium-widget",
+            params: {
+              resource: "https://medium.com/usefulcoin",
+              postsPerLine: 2,
+              limit: 4,
+              picture: "big",
+              fields: ["description", "author", "claps", "publishAt"],
+              ratio: "landscape"
+            }
+          })
         </div>
         <p>Please follow the publication if you subscribe to our views.</p>
         {/* End Content */}
