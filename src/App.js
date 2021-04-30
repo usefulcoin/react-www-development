@@ -7,6 +7,8 @@ import Publications from './pages/Publications';
 import Talent from './pages/Talent';
 import Blog from './pages/Blog';
 import Disclaimer from './pages/Disclaimer';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 
 
 import Intro from './components/Intro';
