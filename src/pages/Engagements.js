@@ -16,7 +16,7 @@ class Trade extends React.Component {
           </a>
         </span>
         <h3>The Settlement DAO</h3>
-        <p>What started out as a fun [pro bono] community management engagement turned into an opportunity to <i>deeply embed</i>.
+        <p>What started out as a fun community management [pro bono] engagement turned into an opportunity to <i>deeply embed</i>.
            Eventually, we joined the core developer to form a team to breathe life into the binary options settlement protocol
            ("<b>BIOPSET</b>") and bootstrap its <b>Settlement DAO</b>.</p>
       {/* End Content */}
