@@ -10,7 +10,9 @@ class Trade extends React.Component {
            draft and execute thoughful marketing strategies, write impactful press releases, exhibit at major
            conferences, and develop educational content, engagements allow us to leverage our various talents
            and produce the greatest impact.</p>
-        <img src="images/biop-combination-mark-250x150px.png" alt="biop-combination-mark" />
+        <span className="image left">
+          <img src="images/biop-combination-mark-250x150px.png" alt="biop-combination-mark" />
+        </span>
         <h3>The Settlement DAO</h3>
         <p>What started out as a fun [pro bono] community management engagement turned into an opportunity to <i>deeply embed</i>.
            Eventually, we joined the core developer to form a team to breathe life into the binary options settlement protocol
