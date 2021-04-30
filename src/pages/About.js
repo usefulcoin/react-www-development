@@ -13,7 +13,7 @@ class About extends React.Component {
           <p>Useful Coin is a research and strategy consultancy based in Texas. We enjoy collaborating with orangizations of all stripes on marketing
             research and business development. That said, we have a penchant for collaborating teams in the cryptocurrency industry. Most of
             our <b>engagements</b> tend to involve Korea and typically last between six to twelve months. Read about our <Link to="/Engagements">
-            engagements</Link> to learn more about how we can be of service to you. Or save yourself some reading and just give us <a tel="+12062270634">
+            engagements</Link> to learn more about how we can be of service to you. Or save yourself some reading and just give us <a href="tel:+12062270634">
             call</a>.</p>
         </header>
         <ul className="actions special">
