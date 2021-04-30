@@ -14,7 +14,7 @@ class About extends React.Component {
           call</a>.</p>
         <ul className="actions special">
           <li>
-            <a href="mailto:info@usefulcoin.com" className="button large"><img src="images/usefulcoin-blackicon-250x250px.png" width="5%" alt="brand icon" />Email Us</a>
+            <a href="mailto:info@usefulcoin.com" className="button large">Email Us</a>
           </li>
         </ul>
       {/* End Content */}
