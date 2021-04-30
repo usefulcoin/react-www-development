@@ -6,7 +6,7 @@ class Trade extends React.Component {
     <div>
       {/* Start Content */}
         <h1 className="major" id="engagements">Engagements</h1>
-        <p>All-hands-on-deck <b>engagements</b> lasting three to nine month are our specialty. Although we
+        <p>All-hands-on-deck <b>engagements</b> lasting three to nine months are our specialty. Although we
            draft and execute thoughful marketing strategies, write impactful press releases, exhibit at major
            conferences, and develop educational content, engagements allow us to leverage our various talents
            and produce the greatest impact.</p>
