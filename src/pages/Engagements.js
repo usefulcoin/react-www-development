@@ -5,7 +5,7 @@ class Trade extends React.Component {
   return (
     <div>
       {/* Start Content */}
-        <h1 class="major" id="engagements">Engagements</h1>
+        <h1 className="major" id="engagements">Engagements</h1>
         <p>We draft and execute thoughful marketing strategies, write impactful press releases, exhibit at major conferences, and develop educational content.
            However, all-hands-on-deck <b>engagements</b> lasting three to nine month are our specialty. These engagements allow us to leverage our various
            talents to produce the greatest impact.</p>

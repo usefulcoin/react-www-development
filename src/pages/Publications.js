@@ -5,7 +5,7 @@ class Trade extends React.Component {
   return (
     <div>
       {/* Start Content */}
-        <h1 class="major" id="publications">Publications</h1>
+        <h1 className="major" id="publications">Publications</h1>
         <p>Coming soon.</p>
       {/* End Content */}
     </div>
