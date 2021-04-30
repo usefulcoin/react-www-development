@@ -23,9 +23,9 @@ function App() {
           <ul className="links">
             <Route exact path="/"><li><Link to="/">About</Link></li></Route>
             <Route path="/:id"><li><Link to="/Engagements">Engagements</Link></li></Route>
-            <Route path="/:id"><li><Link to="/Publications">Publications</Link></li></Route>
             <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
             <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
+            <Route path="/:id"><li><Link to="/Publications">Publications</Link></li></Route>
           </ul>
           <ul className="icons">
             <li><a href="https://medium.com/usefulcoin" className="icon brands fa-medium"><span className="label">Medium</span></a></li>
