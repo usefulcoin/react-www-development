@@ -11,7 +11,9 @@ class Trade extends React.Component {
            conferences, and develop educational content, engagements allow us to leverage our various talents
            and produce the greatest impact.</p>
         <span className="image left">
-          <img src="images/biop-combination-mark-250x150px.png" alt="biop-combination-mark" />
+          <a className="image dropshadow" href="https://www.biopset.com/">
+            <img src="images/biop-combination-mark-250x150px.png" alt="biop-combination-mark" />
+          </a>
         </span>
         <h3>The Settlement DAO</h3>
         <p>What started out as a fun [pro bono] community management engagement turned into an opportunity to <i>deeply embed</i>.
