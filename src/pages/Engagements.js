@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Trade extends React.Component {
+class Engagements extends React.Component {
   render() {
   return (
     <div>
@@ -25,4 +25,4 @@ class Trade extends React.Component {
   }
 }
 
-export default Trade;
+export default Engagements;

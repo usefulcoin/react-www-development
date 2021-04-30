@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Trade extends React.Component {
+class Blog extends React.Component {
   render() {
   return (
     <div>
@@ -14,4 +14,4 @@ class Trade extends React.Component {
   }
 }
 
-export default Trade;
+export default Blog;
