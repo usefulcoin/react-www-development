@@ -1,4 +1,7 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
+import Disclaimer from './pages/Disclaimer';
+
 
 class Copyright extends React.Component {
   render() {
@@ -8,9 +11,9 @@ class Copyright extends React.Component {
         <div id="copyright">
           <ul>
             <li>© {new Date().getFullYear()} USEFUL COIN LLC. ALL RIGHTS RESERVED.</li>
-            <li><a href="page.html?slug=disclaimer">Disclaimer</a></li>
-            <li><a href="page.html?slug=privacy-policy">Privacy Policy</a></li>
-            <li><a href="page.html?slug=terms-and-conditions">Terms & Conditions</a></li>
+            <li><Link to="/Disclaimer">Disclaimer</Link></li>
+            <li><Link to="/Privacy">Privacy Policy</Link></li>
+            <li><Link to="/Terms">Disclaimer</Link></li>
           </ul>
         </div>
       {/* End Copyright */}
