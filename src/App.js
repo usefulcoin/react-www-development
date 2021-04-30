@@ -6,6 +6,8 @@ import Engagements from './pages/Engagements';
 import Publications from './pages/Publications';
 import Talent from './pages/Talent';
 import Blog from './pages/Blog';
+import Disclaimer from './pages/Disclaimer';
+
 
 import Intro from './components/Intro';
 import Header from './components/Header';
