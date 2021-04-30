@@ -7,7 +7,7 @@ class Header extends React.Component {
       {/* Start Header */}
       <header id="header">
         <img src="images/usefulcoin-whiteicon-128x128px.png" width="75px" height="75px" alt="white icon" />
-        <h1>USEFUL COIN</h1>
+        <h2>USEFUL COIN</h2>
       </header>
       {/* End Header */}
       </div>
