@@ -4,10 +4,7 @@ class Blog extends React.Component {
   componentDidMount() {
     window.mediumWidget();
   }
-  render() {
-    return ();
-  }
-
+  
   render() {
   return (
     <div>
