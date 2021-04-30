@@ -3,8 +3,8 @@ import React from 'react';
 class Trade extends React.Component {
   render() {
   return (
-    <React.Fragment>
-        {/* Start Content */}
+    <div>
+      {/* Start Content */}
         <h1 class="major" id="munair">Munair Simpson</h1>
         <p>After completing his first token marketing campaign in Seoul, Korea in early 2017, <a href="https://www.linkedin.com/in/munair/" target="_blank" rel="noopener">Munair Simpson</a> established Useful Coin LLC to continue to help new ventures strategically develop tokens and delve deeper into the cryptocurrency world.</p>
         <p>Today, Munair is completely committed to researching and developing useful cryptocurrencies. In particular, he enjoys advising ventures that choose to finance their aspirations issuing fundamentally valuable tokens. Munair then introduces those coins to a network of cryptocurrency funds and private investors.</p>
@@ -16,8 +16,8 @@ class Trade extends React.Component {
         <p>Mason is an aspiring computer scientist. He is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio.</p>
         <p><a class="image dropshadow" href="https://www.linkedin.com/in/munair/"><img src="https://usefulcoin.files.wordpress.com/2021/04/mason-350x350px.png?w=175&amp;h=175" alt="mason" width="175" height="175" /></a></p>
         <p>During his studies, Mason discovered cryptocurrencies and became completely enthralled with its allure of investing, trading, and decentralization. During his free time, Mason enjoys writing scripts and spending time with his weim reiner.</p>
-        {/* End Content */}
-    </React.Fragment>
+      {/* End Content */}
+    </div>
   );
   }
 }
