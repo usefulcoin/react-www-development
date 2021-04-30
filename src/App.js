@@ -17,7 +17,7 @@ function App() {
       {/* Start Wrapper */}
       <div id="wrapper" className="fade-in">
         <Route exact path="/"><Intro /></Route>
-        {/* <Header /> */}
+        <Header />
         {/* Start Nav */}
         <nav id="nav">
           <ul className="links">
