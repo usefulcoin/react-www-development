@@ -10,7 +10,7 @@ class Trade extends React.Component {
         <h3 className="major" id="munair">Munair Simpson</h3>
         <span className="image left">
           <a className="image dropshadow" href="https://www.linkedin.com/in/munair/">
-            <img src="https://usefulcoin.files.wordpress.com/2018/12/linkedin-usefulcoin-principal-advisor-350x350px-1.png?w=175&amp;h=175" alt="munair" width="175" height="175" />
+            <img src="images/linkedin-usefulcoin-principal-advisor-350x350px-1.png" alt="munair" width="175" height="175" />
           </a>
         </span>
         <p>After completing his first token marketing campaign in Seoul, Korea in early 2017, <a href="https://www.linkedin.com/in/munair/" target="_blank" rel="noopener">Munair Simpson</a> established Useful Coin LLC to continue to help new ventures strategically develop tokens and delve deeper into the cryptocurrency world.</p>
@@ -21,7 +21,7 @@ class Trade extends React.Component {
         <h3 className="major" id="mason">Mason Eckenrod</h3>
         <span className="image left">
           <a className="image dropshadow" href="https://www.linkedin.com/in/munair/">
-            <img src="https://usefulcoin.files.wordpress.com/2021/04/mason-350x350px.png?w=175&amp;h=175" alt="mason" width="175" height="175" />
+            <img src="images/mason-350x350px.png" alt="mason" width="175" height="175" />
           </a>
         </span>
         <p>Mason is an aspiring computer scientist. He is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio.</p>
