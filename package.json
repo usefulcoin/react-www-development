@@ -2,7 +2,7 @@
   "name": "usefulcoin",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.usefulcoin.com/",
+  "homepage": "https://github.usefulcoin.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
