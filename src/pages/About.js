@@ -6,7 +6,7 @@ class About extends React.Component {
   return (
     <div>
       {/* Start Content */}
-        <h1 class="major" id="about">RESEARCH & STRATEGY</h1>
+        <h1 class="major" id="about">COLLABORATION & ENGAGEMENT</h1>
         <p>Useful Coin is a research and strategy consultancy based in Texas. We enjoy collaborating with orangizations of all stripes on marketing
           research and business development. That said, we have a penchant for collaborating with teams in the cryptocurrency industry. Most of
           our <b>engagements</b> tend to involve Korea and typically last between six to twelve months. Read about our <Link to="/Engagements">
