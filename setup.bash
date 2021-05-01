@@ -33,5 +33,6 @@ aws configure
 #
 # or
 #
-# npm install react-router-dom
-# npm start
+# npm install react-router-dom [if required]
+# npm start [to compile and host locally]
+# npm run build && aws s3 sync build/ s3://staging-usefulcoin-com [to build and host on aws]
