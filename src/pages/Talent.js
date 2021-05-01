@@ -20,7 +20,7 @@ class Talent extends React.Component {
         <p>When time permits, Munair enjoys contributing to <a href="http://coincentral.com/author/munair/"  target="_blank" rel="noreferrer">Coin Central</a> and the Expert Take at <a href="http://cointelegraph.com/authors/munair_simpson"  target="_blank" rel="noreferrer">Coin Telegraph</a>.</p>
         <h3 className="major" id="mason">Mason Eckenrod</h3>
         <span className="image left">
-          <a className="image dropshadow" href="https://www.linkedin.com/in/munair/"  target="_blank" rel="noreferrer">
+          <a className="image dropshadow" href="https://www.linkedin.com/in/mason-eckenrod-6845291b4/"  target="_blank" rel="noreferrer">
             <img src="images/mason-350x350px.png" alt="mason" />
           </a>
         </span>
