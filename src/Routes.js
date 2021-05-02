@@ -9,6 +9,7 @@ import Blog from './pages/Blog';
 import Disclaimer from './pages/Disclaimer';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Error404 from './pages/Error404';
 
 
 import Intro from './components/Intro';
@@ -17,7 +18,7 @@ import Copyright from './components/Copyright';
 import Navigation from './components/Navigation';
 
 
-const App = () => {
+const routes = (props) => {
   return (
     <div id="wrapper" className="fade-in">
       <Route exact path="/"><Intro /></Route>
@@ -49,6 +50,7 @@ const App = () => {
           <Route path="/Disclaimer"><Disclaimer /></Route>
           <Route path="/Privacy"><Privacy /></Route>
           <Route path="/Terms"><Terms /></Route>
+          <Route path="/Error404"><Error404 /></Route>
         </Switch>
       </div>
       <Copyright />
@@ -56,4 +58,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default routes;
