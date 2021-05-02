@@ -7,6 +7,7 @@ import {
 
 
 import About from './pages/About';
+import Navigation from './pages/Navigation';
 import Engagements from './pages/Engagements';
 import Publications from './pages/Publications';
 import Talent from './pages/Talent';
@@ -20,7 +21,6 @@ import Error404 from './pages/Error404';
 import Intro from './components/Intro';
 import Header from './components/Header';
 import Copyright from './components/Copyright';
-import Navigation from './components/Navigation';
 
 
 const App = () => {
