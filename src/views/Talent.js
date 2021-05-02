@@ -11,7 +11,7 @@ const Talent = () => {
       <h3 className="major" id="munair">Munair Simpson</h3>
       <span className="image left">
         <a className="image dropshadow" href="https://www.linkedin.com/in/munair/">
-          <img src="images/linkedin-usefulcoin-principal-advisor-350x350px-1.png" alt="munair" style={imgStyle} />
+          <img src="images/linkedin-usefulcoin-principal-advisor-350x350px-1.png" alt="munair" style={imgStyle} maxWidth="100px" />
         </a>
       </span>
       <p>After completing his first token marketing campaign in Seoul, Korea in early 2017, <a href="https://www.linkedin.com/in/munair/" target="_blank" rel="noreferrer">Munair Simpson</a> established Useful Coin LLC to continue to help new ventures strategically develop tokens and delve deeper into the cryptocurrency world.</p>
@@ -22,7 +22,7 @@ const Talent = () => {
       <h3 className="major" id="mason">Mason Eckenrod</h3>
       <span className="image left">
         <a className="image dropshadow" href="https://www.linkedin.com/in/mason-eckenrod-6845291b4/"  target="_blank" rel="noreferrer">
-          <div style={{maxWitdh: "150px"}}><img src="images/mason-350x350px.png" alt="mason" style={imgStyle} /></div>
+          <img src="images/mason-350x350px.png" alt="mason" style={imgStyle} maxWidth="100px" />
         </a>
       </span>
       <p>Mason is an aspiring computer scientist. He joined Useful Coin in April 2021, but is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio. When time permits, he assits with the development of Useful Coin's proprietary trading systems and various other research and development initiatives.</p>
