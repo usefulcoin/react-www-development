@@ -26,8 +26,8 @@ import Copyright from './components/Copyright';
 const App = () => {
   return (
     <div id="wrapper" className="fade-in">
-      <Route exact path="/"><Intro /></Route>
-      <Route path="/:id"><Header /></Route>
+      <Route path="/"><Intro /></Route>
+      {/* <Route path="/:id"><Header /></Route> */}
       <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
       <nav id="nav">
         <ul className="links">
@@ -46,7 +46,7 @@ const App = () => {
       </nav>
       <div id="main">
         <Switch>
-          <Route exact path="/"><About /></Route>
+          <Route path="/"><About /></Route>
           <Route path="/Navigation"><Navigation /></Route>
           <Route path="/Engagements"><Engagements /></Route>
           <Route path="/Publications"><Publications /></Route>
