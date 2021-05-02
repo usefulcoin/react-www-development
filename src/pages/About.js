@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div id="about-content">
+    <div id="about-content-wrapper">
       <h1 class="major" id="about">COLLABORATION & ENGAGEMENT</h1>
       <p>Useful Coin is a research and strategy consultancy based in Texas. We enjoy collaborating with orangizations of all stripes on marketing
         research and business development. That said, we have a penchant for collaborating with teams in the cryptocurrency industry. Most of
