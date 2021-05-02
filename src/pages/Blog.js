@@ -1,11 +1,11 @@
 import React from 'react';
 
-
-const Blog = () => {
-  function componentDidMount() {
+class Blog extends React.Component {
+  componentDidMount() {
     window.mediumWidget();
   }
 
+  render() {
   return (
     <div>
       {/* Start Content */}
@@ -16,6 +16,7 @@ const Blog = () => {
       {/* End Content */}
     </div>
   );
+  }
 }
 
 export default Blog;
