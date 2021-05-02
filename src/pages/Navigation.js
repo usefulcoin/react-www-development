@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+  buttonClasses = "button primary large fit small"
+  
   return (
     <div id="navigation">
       <ul>
-        <li><Link className="button primary large fit small" to="/">About</Link></li>
-        <li><Link className="button primary large fit small" to="/Engagements">Engagements</Link></li>
-        <li><Link className="button primary large fit small" to="/Talent">Talent</Link></li>
-        <li><Link className="button primary large fit small" to="/Blog">Blog</Link></li>
-        <li><Link className="button primary large fit small" to="/Publications">Publications</Link></li>
-        <li><Link className="button primary large fit small" to="/Disclaimer">Disclaimer</Link></li>
-        <li><Link className="button primary large fit small" to="/Privacy">Privacy Policy</Link></li>
-        <li><Link className="button primary large fit small" to="/Terms">Terms & Conditions</Link></li>
+        <li><Link className={buttonClasses} to="/">About</Link></li>
+        <li><Link className={buttonClasses} to="/Engagements">Engagements</Link></li>
+        <li><Link className={buttonClasses} to="/Talent">Talent</Link></li>
+        <li><Link className={buttonClasses} to="/Blog">Blog</Link></li>
+        <li><Link className={buttonClasses} to="/Publications">Publications</Link></li>
+        <li><Link className={buttonClasses} to="/Disclaimer">Disclaimer</Link></li>
+        <li><Link className={buttonClasses} to="/Privacy">Privacy Policy</Link></li>
+        <li><Link className={buttonClasses} to="/Terms">Terms & Conditions</Link></li>
       </ul>
     </div>
   );
