@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-  buttonClasses = "button primary large fit small"
-  
+  let buttonClasses = "button primary large fit small"
+
   return (
     <div id="navigation">
       <ul>
