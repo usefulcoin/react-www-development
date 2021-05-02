@@ -1,15 +1,16 @@
 const Talent = () => {
   const imgStyle = {
+    maxWitdh: "100px",
     border: "solid rgba(246,61,3, 1)",
     borderRadius: "50%",
-    backgroundColor: "#rgba(150,150,150, 0.8)"
+    backgroundColor: "rgba(71,75,81, 0.8)"
   }
   return (
     <div id="talent-content-wrapper">
       <h1 className="major" id="talent">Talent</h1>
       <p>The talent behind Useful Coin is exceptional. Munair and Mason are two of the most compassionate and thoughtful geeks you'd ever want to collaborate with.</p>
       <h3 className="major" id="munair">Munair Simpson</h3>
-      <span className="image left" style={{maxWitdh: "100px"}}>
+      <span className="image left">
         <a className="image dropshadow" href="https://www.linkedin.com/in/munair/">
           <img src="images/linkedin-usefulcoin-principal-advisor-350x350px-1.png" alt="munair" style={imgStyle} />
         </a>
@@ -20,7 +21,7 @@ const Talent = () => {
       <p>Munair graduated from the Wharton School at the University of Pennsylvania with an MBA in marketing. He also studied the analysis, design, and management of information systems at the University of California in Berkeley and received a bachelor of science in industrial engineering from the University of the West Indies in Trinidad and Tobago.</p>
       <p>When time permits, Munair enjoys contributing to <a href="http://coincentral.com/author/munair/"  target="_blank" rel="noreferrer">Coin Central</a> and the Expert Take at <a href="http://cointelegraph.com/authors/munair_simpson"  target="_blank" rel="noreferrer">Coin Telegraph</a>.</p>
       <h3 className="major" id="mason">Mason Eckenrod</h3>
-      <span className="image left" style={{maxWitdh: "100px"}}>
+      <span className="image left">
         <a className="image dropshadow" href="https://www.linkedin.com/in/mason-eckenrod-6845291b4/"  target="_blank" rel="noreferrer">
           <img src="images/mason-350x350px.png" alt="mason" style={imgStyle} />
         </a>
