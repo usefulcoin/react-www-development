@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
 
+import Nav from './pages/Nav';
 import About from './pages/About';
 import Engagements from './pages/Engagements';
 import Publications from './pages/Publications';
@@ -23,6 +24,7 @@ const App = () => {
       <div id="wrapper" className="fade-in">
         <Route exact path="/"><Intro /></Route>
         <Route path="/:id"><Header /></Route>
+        <Route path="/:id"><Link to="/Nav" id="navPanelToggle" className="alt">Menu</Link></Route>
         {/* Start Nav */}
         <nav id="nav">
           <ul className="links">
