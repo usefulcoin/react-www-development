@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Blog () => {
+const Blog = () => {
   componentDidMount() {
     window.mediumWidget();
   }
