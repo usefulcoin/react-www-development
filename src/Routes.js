@@ -50,7 +50,7 @@ const routes = (props) => {
           <Route path="/Disclaimer"><Disclaimer /></Route>
           <Route path="/Privacy"><Privacy /></Route>
           <Route path="/Terms"><Terms /></Route>
-          <Route path="/Error404"><Error404 /></Route>
+          <Route><Error404 /></Route>
         </div>
         <Copyright />
       </div>
