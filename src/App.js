@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
 
-import Nav from './pages/Navigation';
+import Navigation from './pages/Navigation';
 import About from './pages/About';
 import Engagements from './pages/Engagements';
 import Publications from './pages/Publications';
