@@ -31,7 +31,7 @@ const App = () => {
       <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
       <nav id="nav">
         <ul className="links">
-          <Route exact path="/:id"><li><Link to="/">About</Link></li></Route>
+          <Route exact path="/:id"><li><Link to="/#about">About</Link></li></Route>
           <Route path="/:id"><li><Link to="/Engagements">Engagements</Link></li></Route>
           <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
           <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
