@@ -1,7 +1,4 @@
-import {
-  Link,
-  animateScroll as scroll
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 const Intro = () => {
   return (
@@ -16,7 +13,7 @@ const Intro = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-35}
+            offset={-100}
             duration={500}
             ><a href="#about" className="button icon solid solo fa-arrow-down scrolly">Continue</a>
           </Link>
