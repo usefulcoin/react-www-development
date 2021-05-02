@@ -21,6 +21,7 @@ const App = () => {
   return (
     <div className="App">
       <div id="wrapper" className="fade-in">
+        <Route path="/Nav"><Nav /></Route>
         <Route exact path="/"><Intro /></Route>
         <Route path="/:id"><Header /></Route>
         <Route path="/:id"><Link to="/Nav" id="navPanelToggle" className="alt">Menu</Link></Route>
@@ -42,7 +43,6 @@ const App = () => {
         <div id="main">
           <Switch>
             <Route exact path="/"><About /></Route>
-            <Route path="/Nav"><Nav /></Route>
             <Route path="/Engagements"><Engagements /></Route>
             <Route path="/Publications"><Publications /></Route>
             <Route path="/Talent"><Talent /></Route>
