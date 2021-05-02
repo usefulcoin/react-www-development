@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Publications extends React.Component {
-  render() {
+
+const Publication = () => {
   return (
     <div>
       {/* Start Content */}
@@ -25,7 +25,6 @@ class Publications extends React.Component {
       {/* End Content */}
     </div>
   );
-  }
 }
 
 export default Publications;
