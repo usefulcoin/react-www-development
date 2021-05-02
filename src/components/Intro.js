@@ -15,7 +15,7 @@ const Intro = () => {
             smooth={true}
             offset={-130}
             duration={500}
-            ><a href="#about" className="button icon solid solo fa-arrow-down scrolly">Continue</a>
+            ><div className="button icon solid solo fa-arrow-down scrolly">Continue</a>
           </Link>
         </li>
       </ul>
