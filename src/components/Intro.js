@@ -16,7 +16,7 @@ const Intro = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-35}
             duration={500}
             ><a href="#about" className="button icon solid solo fa-arrow-down scrolly">Continue</a>
           </Link>
