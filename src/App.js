@@ -56,6 +56,7 @@ const App = () => {
           <Route path="/Disclaimer"><Disclaimer /></Route>
           <Route path="/Privacy"><Privacy /></Route>
           <Route path="/Terms"><Terms /></Route>
+          <Route path="/Home"><Home /></Route>
           <Route><Error404 /></Route>
         </Switch>
       </div>
