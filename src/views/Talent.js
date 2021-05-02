@@ -10,7 +10,7 @@ const Talent = () => {
       <p>The talent behind Useful Coin is exceptional. Munair and Mason are two of the most compassionate and thoughtful geeks you'd ever want to collaborate with.</p>
       <h3 className="major" id="munair">Munair Simpson</h3>
       <span className="image left">
-        <a className="image dropshadow" href="https://www.linkedin.com/in/munair/">
+        <a style={{maxWitdh: "150px"}} className="image dropshadow" href="https://www.linkedin.com/in/munair/">
           <img src="images/linkedin-usefulcoin-principal-advisor-350x350px-1.png" alt="munair" style={imgStyle} />
         </a>
       </span>
@@ -21,10 +21,8 @@ const Talent = () => {
       <p>When time permits, Munair enjoys contributing to <a href="http://coincentral.com/author/munair/"  target="_blank" rel="noreferrer">Coin Central</a> and the Expert Take at <a href="http://cointelegraph.com/authors/munair_simpson"  target="_blank" rel="noreferrer">Coin Telegraph</a>.</p>
       <h3 className="major" id="mason">Mason Eckenrod</h3>
       <span className="image left">
-        <a className="image dropshadow" href="https://www.linkedin.com/in/mason-eckenrod-6845291b4/"  target="_blank" rel="noreferrer">
-          <div style={{maxWitdh: "150px"}}>
-            <img src="images/mason-350x350px.png" alt="mason" style={imgStyle} />
-          </div>
+        <a style={{maxWitdh: "150px"}} className="image dropshadow" href="https://www.linkedin.com/in/mason-eckenrod-6845291b4/"  target="_blank" rel="noreferrer">
+          <img src="images/mason-350x350px.png" alt="mason" style={imgStyle} />
         </a>
       </span>
       <p>Mason is an aspiring computer scientist. He joined Useful Coin in April 2021, but is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio. When time permits, he assits with the development of Useful Coin's proprietary trading systems and various other research and development initiatives.</p>
