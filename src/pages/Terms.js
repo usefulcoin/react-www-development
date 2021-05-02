@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Terms extends React.Component {
-  render() {
+
+const Terms = () => {
   return (
     <div>
       {/* Start Content */}
@@ -26,7 +26,6 @@ class Terms extends React.Component {
       {/* End Content */}
     </div>
   );
-  }
 }
 
 export default Terms;
