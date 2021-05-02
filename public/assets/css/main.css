@@ -2674,6 +2674,10 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+  .image #talent {
+		max-width: 150;
+	}
+
 /* Actions */
 
 	ul.actions {
