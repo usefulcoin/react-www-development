@@ -1,8 +1,8 @@
 const Terms = () => {
   return (
     <div id="terms-content-wrapper">
-      <h1 className="major" id="terms">Terms and Conditions</h1>
-      <h2>(“Terms”)</h2>
+      <h1 className="major" id="terms">Terms</h1>
+      <h2>Terms and Conditions</h2>
       <p>Last updated: December 15, 2018</p>
       <p>Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the <a href="http://www.usefulcoin.com" rel="nofollow">http://www.usefulcoin.com</a> website (the “Service”) operated by Useful Coin LLC (“us”, “we”, or “our”).</p>
       <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>

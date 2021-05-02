@@ -1,7 +1,8 @@
 const Privacy = () => {
   return (
     <div id="privacy-content-wrapper">
-      <h1 className="major" id="privacy">Privacy Policy</h1>
+      <h1 className="major" id="privacy">Privacy</h1>
+      <h2>Privacy Policy</h2>
       <p>Last updated: December 15, 2018</p>
       <p>Useful Coin LLC (“us”, “we”, or “our”) operates the <a href="http://www.usefulcoin.com" rel="nofollow">http://www.usefulcoin.com</a> website (hereinafter referred to as the “Service”).</p>
       <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. The Privacy Policy for Useful Coin LLC is based on the<a href="/">Privacy Policy</a>.</p>
