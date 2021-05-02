@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Blog = () => {
-  const componentDidMount = () => {
+  function componentDidMount() {
     window.mediumWidget();
   }
 
