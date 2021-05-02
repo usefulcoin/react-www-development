@@ -1,6 +1,5 @@
 const Talent = () => {
   const imgStyle = {
-    maxWitdh: "100px",
     border: "solid rgba(246,61,3, 1)",
     borderRadius: "50%",
     backgroundColor: "rgba(71,75,81, 0.8)"
@@ -23,7 +22,9 @@ const Talent = () => {
       <h3 className="major" id="mason">Mason Eckenrod</h3>
       <span className="image left">
         <a className="image dropshadow" href="https://www.linkedin.com/in/mason-eckenrod-6845291b4/"  target="_blank" rel="noreferrer">
-          <img src="images/mason-350x350px.png" alt="mason" style={imgStyle} />
+          <div style={{maxWitdh: "150px"}}>
+            <img src="images/mason-350x350px.png" alt="mason" style={imgStyle} />
+          </div>
         </a>
       </span>
       <p>Mason is an aspiring computer scientist. He joined Useful Coin in April 2021, but is currently working on earning his Bachelor’s of Computer Science at the University of Texas in San Antonio. When time permits, he assits with the development of Useful Coin's proprietary trading systems and various other research and development initiatives.</p>
