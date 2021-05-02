@@ -46,6 +46,7 @@ const App = () => {
         <div id="main">
           <Switch>
             <Route exact path="/"><About /></Route>
+            <Route path="/Nav"><Nav /></Route>
             <Route path="/Engagements"><Engagements /></Route>
             <Route path="/Publications"><Publications /></Route>
             <Route path="/Talent"><Talent /></Route>
