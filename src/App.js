@@ -1,5 +1,10 @@
 import React from "react";
-import { Link, Route, Switch } from "react-router-dom";
+import {
+  Link,
+  Route,
+  Switch
+} from "react-router-dom";
+
 
 import About from './pages/About';
 import Engagements from './pages/Engagements';
@@ -9,6 +14,7 @@ import Blog from './pages/Blog';
 import Disclaimer from './pages/Disclaimer';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Error404 from './pages/Error404';
 
 
 import Intro from './components/Intro';
