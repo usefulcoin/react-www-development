@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Privacy extends React.Component {
-  render() {
+
+const Privacy = () => {
   return (
     <div>
       {/* Start Content */}
@@ -96,7 +96,6 @@ class Privacy extends React.Component {
       {/* End Content */}
     </div>
   );
-  }
 }
 
 export default Privacy;
