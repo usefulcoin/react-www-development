@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Talent extends React.Component {
-  render() {
+
+const Talent = () => {
   return (
     <div>
       {/* Start Content */}
@@ -29,7 +29,6 @@ class Talent extends React.Component {
       {/* End Content */}
     </div>
   );
-  }
 }
 
 export default Talent;
