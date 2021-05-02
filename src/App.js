@@ -20,12 +20,10 @@ import Copyright from './components/Copyright';
 const App = () => {
   return (
     <div className="App">
-      {/* Start Wrapper */}
       <div id="wrapper" className="fade-in">
         <Route exact path="/"><Intro /></Route>
         <Route path="/:id"><Header /></Route>
         <Route path="/:id"><Link to="/Nav" id="navPanelToggle" className="alt">Menu</Link></Route>
-        {/* Start Nav */}
         <nav id="nav">
           <ul className="links">
             <Route exact path="/"><li><Link to="/">About</Link></li></Route>
@@ -41,8 +39,6 @@ const App = () => {
             <li><a href="https://discord.gg/4SRYBNdE3r" className="icon brands fa-discord"><span className="label">Discord</span></a></li>
           </ul>
         </nav>
-        {/* End Nav */}
-        {/* Start Main */}
         <div id="main">
           <Switch>
             <Route exact path="/"><About /></Route>
@@ -56,10 +52,8 @@ const App = () => {
             <Route path="/Terms"><Terms /></Route>
           </Switch>
         </div>
-        {/* End Main */}
         <Copyright />
       </div>
-      {/* End Wrapper */}
     </div>
   );
 }
