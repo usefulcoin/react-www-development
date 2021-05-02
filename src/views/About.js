@@ -15,7 +15,7 @@ const About = () => {
           <a href="mailto:info@usefulcoin.com" className="button large">Email Us</a>
         </li>
         <li>
-          <Link to="/Engagements"><div className="button default large">Learn More</div></Link>
+          <Link to="/Engagements"><div className="button primary large">Learn More</div></Link>
         </li>
       </ul>
     </div>
