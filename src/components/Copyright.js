@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const Copyright = () => {
   return (
-    <div className="App">
     {/* Start Copyright */}
       <div id="copyright">
         <ul>
@@ -15,7 +14,6 @@ const Copyright = () => {
         </ul>
       </div>
     {/* End Copyright */}
-    </div>
   );
 }
 
