@@ -5,7 +5,7 @@ const Navigation = () => {
 
   return (
     <div id="navigation">
-      <ul style={{listStyle: "none", marginBottom: 2rem, padding: 0}}>
+      <ul style={{listStyle: "none", margin: "0 0 2rem 0", padding: 0}}>
         <li><Link className={buttonClasses} to="/">About</Link></li>
         <li><Link className={buttonClasses} to="/Engagements">Engagements</Link></li>
         <li><Link className={buttonClasses} to="/Talent">Talent</Link></li>
