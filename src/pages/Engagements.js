@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Engagements extends React.Component {
-  render() {
+
+const Engagements = () => {
   return (
     <div>
       {/* Start Content */}
@@ -22,7 +22,6 @@ class Engagements extends React.Component {
       {/* End Content */}
     </div>
   );
-  }
 }
 
 export default Engagements;
