@@ -6,16 +6,16 @@ import {
 } from "react-router-dom";
 
 
-import About from './pages/About';
-import Navigation from './pages/Navigation';
-import Engagements from './pages/Engagements';
-import Publications from './pages/Publications';
-import Talent from './pages/Talent';
-import Blog from './pages/Blog';
-import Disclaimer from './pages/Disclaimer';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
-import Error404 from './pages/Error404';
+import About from './views/About';
+import Navigation from './views/Navigation';
+import Engagements from './views/Engagements';
+import Publications from './views/Publications';
+import Talent from './views/Talent';
+import Blog from './views/Blog';
+import Disclaimer from './views/Disclaimer';
+import Privacy from './views/Privacy';
+import Terms from './views/Terms';
+import Error404 from './views/Error404';
 
 
 import Intro from './components/Intro';
