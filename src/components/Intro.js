@@ -5,7 +5,7 @@ const Intro = () => {
     <div id="intro">
       <img src="images/usefulcoin-whiteicon-128x128px.png" width="75px" height="75px" alt="white icon" />
       <h2>USEFUL COIN</h2>
-      <p>collaborative research & strategic engagement</p>
+      <p>research & strategy</p>
       <ul className="actions">
         <li>
           <Link
