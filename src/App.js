@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 
+import Home from './views/Home';
 import About from './views/About';
 import Navigation from './views/Navigation';
 import Engagements from './views/Engagements';
@@ -31,7 +32,7 @@ const App = () => {
       <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
       <nav id="nav">
         <ul className="links">
-          <Route exact path="/:id"><li><Link to="/">About</Link></li></Route>
+          <Route exact path="/:id"><li><Link to="/Home">About</Link></li></Route>
           <Route path="/:id"><li><Link to="/Engagements">Engagements</Link></li></Route>
           <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
           <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
