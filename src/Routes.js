@@ -20,27 +20,27 @@ import Navigation from './components/Navigation';
 
 const routes = (props) => {
   return (
-    <div id="wrapper" className="fade-in">
-      <Route exact path="/"><Intro /></Route>
-      <Route path="/:id"><Header /></Route>
-      <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
-      <nav id="nav">
-        <ul className="links">
-          <Route exact path="/"><li><Link to="/">About</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Engagements">Engagements</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Publications">Publications</Link></li></Route>
-        </ul>
-        <ul className="icons">
-          <li><a href="https://medium.com/usefulcoin" className="icon brands fa-medium"><span className="label">Medium</span></a></li>
-          <li><a href="https://github.com/usefulcoin" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
-          <li><a href="https://twitter.com/usefulcoinllc" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-          <li><a href="https://discord.gg/4SRYBNdE3r" className="icon brands fa-discord"><span className="label">Discord</span></a></li>
-        </ul>
-      </nav>
-      <div id="main">
-        <Switch>
+    <Switch>
+      <div id="wrapper" className="fade-in">
+        <Route exact path="/"><Intro /></Route>
+        <Route path="/:id"><Header /></Route>
+        <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
+        <nav id="nav">
+          <ul className="links">
+            <Route exact path="/"><li><Link to="/">About</Link></li></Route>
+            <Route path="/:id"><li><Link to="/Engagements">Engagements</Link></li></Route>
+            <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
+            <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
+            <Route path="/:id"><li><Link to="/Publications">Publications</Link></li></Route>
+          </ul>
+          <ul className="icons">
+            <li><a href="https://medium.com/usefulcoin" className="icon brands fa-medium"><span className="label">Medium</span></a></li>
+            <li><a href="https://github.com/usefulcoin" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://twitter.com/usefulcoinllc" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a href="https://discord.gg/4SRYBNdE3r" className="icon brands fa-discord"><span className="label">Discord</span></a></li>
+          </ul>
+        </nav>
+        <div id="main">
           <Route exact path="/"><About /></Route>
           <Route path="/Navigaton"><Navigation /></Route>
           <Route path="/Engagements"><Engagements /></Route>
@@ -51,10 +51,10 @@ const routes = (props) => {
           <Route path="/Privacy"><Privacy /></Route>
           <Route path="/Terms"><Terms /></Route>
           <Route path="/Error404"><Error404 /></Route>
-        </Switch>
+        </div>
+        <Copyright />
       </div>
-      <Copyright />
-    </div>
+    </Switch>
   );
 }
 
