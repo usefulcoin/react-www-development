@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 
 
-export default const Copyright = () => {
+const Copyright = () => {
   return (
     <div className="App">
     {/* Start Copyright */}
@@ -18,3 +18,5 @@ export default const Copyright = () => {
     </div>
   );
 }
+
+export default Copyright;
