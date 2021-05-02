@@ -15,7 +15,8 @@ import Intro from './components/Intro';
 import Header from './components/Header';
 import Copyright from './components/Copyright';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
       {/* Start Wrapper */}
