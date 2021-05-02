@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div id="nav-content-wrapper">
-      <ul className="mobile-links">
+      <ul className="links">
         <li><Link to="/">About</Link></li>
         <li><Link to="/Engagements">Engagements</Link></li>
         <li><Link to="/Talent">Talent</Link></li>
