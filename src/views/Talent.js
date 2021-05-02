@@ -1,8 +1,8 @@
 const Talent = () => {
   const imgStyle = {
-    border: "solid rgba(246,61,3, 1)";
-    borderRadius: "50%";
-    backgroundColor: "#1e252d";
+    border: "solid rgba(246,61,3, 1)",
+    borderRadius: "50%",
+    backgroundColor: "#1e252d"
   }
   return (
     <div id="talent-content-wrapper">
