@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Disclaimer extends React.Component {
-  render() {
+
+const Disclaimer = () => {
   return (
     <div>
       {/* Start Content */}
@@ -16,7 +16,6 @@ class Disclaimer extends React.Component {
       {/* End Content */}
     </div>
   );
-  }
 }
 
 export default Disclaimer;
