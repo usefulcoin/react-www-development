@@ -1,5 +1,6 @@
 const Talent = () => {
   const imgStyle = {
+    max-witdh: "100px",
     border: "solid rgba(246,61,3, 1)",
     borderRadius: "50%",
     backgroundColor: "#1e252d"
