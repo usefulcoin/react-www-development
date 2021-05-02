@@ -1,3 +1,8 @@
+import {
+  Link,
+  animateScroll as scroll
+} from "react-scroll";
+
 const Intro = () => {
   return (
     <div id="intro">
@@ -5,7 +10,17 @@ const Intro = () => {
       <h2>USEFUL COIN</h2>
       <p>collaborative research & strategic engagement</p>
       <ul className="actions">
-        <li><a href="#about" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        <li>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            ><a href="#about" className="button icon solid solo fa-arrow-down scrolly">Continue</a>
+          </Link>
+        </li>
       </ul>
     </div>
   );
