@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/Navigaton"><Navigation /></Route>
           <Route exact path="/"><Intro /></Route>
           <Route path="/:id"><Header /></Route>
-          <Route path="/:id"><Link to="/Nav" id="navPanelToggle" className="alt">Menu</Link></Route>
+          <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
           <nav id="nav">
             <ul className="links">
               <Route exact path="/"><li><Link to="/">About</Link></li></Route>
