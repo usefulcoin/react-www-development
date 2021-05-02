@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Publication = () => {
+const Publications = () => {
   return (
     <div>
       {/* Start Content */}
