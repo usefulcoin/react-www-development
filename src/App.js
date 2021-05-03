@@ -7,10 +7,6 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import {
-  Link as ScrollToLink,
-  animateScroll
-} from "react-scroll";
 
 
 import Home from './views/Home';
@@ -43,7 +39,6 @@ const App = () => {
   );
   return (
     <div id="wrapper" className="fade-in">
-      <ScrollToLink />
       <Route exact path="/"><Intro /></Route>
       <Route path="/:id"><Header /></Route>
       <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
