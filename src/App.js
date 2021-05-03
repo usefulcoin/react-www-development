@@ -26,7 +26,9 @@ import Copyright from './components/Copyright';
 
 
 const App = () => {
-  useLayoutEffect( () => document.getElementsByTagName("body")[0].removeClass('is-preload') );
+  useLayoutEffect( () => {
+    document.getElementsByTagName("body")[0].removeClass('is-preload')
+  } );
   return (
     <div id="wrapper" className="fade-in">
       <Route exact path="/"><Intro /></Route>
