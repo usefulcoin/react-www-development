@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import {
   Link as ScrollToLink,
@@ -7,7 +8,7 @@ animateScroll.scrollToTop()
 
 const About = () => {
   useEffect( () => animateScroll.scrollToTop() );
-  
+
   return (
     <div id="about-content-wrapper">
       <ScrollToLink />
