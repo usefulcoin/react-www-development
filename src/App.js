@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import {
   Link,
   Route,
