@@ -37,7 +37,7 @@ const App = () => {
       document.body.className = '';
     }, 213);
     return () => {
-      () => animateScroll.scrollToTop();
+      animateScroll.scrollToTop();
       document.body.className = 'is-preload';
     }
   } );
