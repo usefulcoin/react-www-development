@@ -1,11 +1,7 @@
-import React from 'react';
+import { useEffect } from 'react';
 
-class Blog extends React.Component {
-  componentDidMount() {
-    window.mediumWidget();
-  }
-
-  render() {
+function Blog() {
+  useEffect(() => window.mediumWidget(), []);
   return (
     <div id="blog-content-wrapper">
       <h1 className="major" id="blog">Blog</h1>
