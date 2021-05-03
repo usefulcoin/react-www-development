@@ -27,8 +27,7 @@ import Copyright from './components/Copyright';
 
 const App = () => {
   useLayoutEffect( () => {
-    let e = document.getElementsByTagName("body")[0];
-    e.removeClass('is-preload')
+    return () => { document.body.className = ''; }
   } );
   return (
     <div id="wrapper" className="fade-in">
