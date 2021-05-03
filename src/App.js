@@ -30,8 +30,9 @@ import Copyright from './components/Copyright';
 const App = () => {
   useEffect( () => {
     window.setTimeout(function() {
-      return () => { document.body.className = ''; }
+      document.body.className = '';
     }, 100);
+    return () => { document.body.className = 'is-preload'; }
   } );
   return (
     <div id="wrapper" className="fade-in">
