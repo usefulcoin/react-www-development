@@ -1,10 +1,72 @@
-# Getting Started with Create React App
+# Learnings
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+The key learning was acquiring the knowledge to call <scripts> in the *index.html* file. The key to this was employing the **useEffect** React hook to call the function after browser *layout* and *paint*. Read more [here](https://dev.to/trentyang/replace-lifecycle-with-hooks-in-react-3d4n) as it is the source of
+knowledge. 
 
-In the project directory, you can run:
+
+## 1. Running Medium Widget Scripts
+
+Medium provides us a widget to retrieve articles from publication. It is put in script tags and added to the *index.html* file in the *public* directory of a React app.
+
+For the initial build of this app, the script was:
+
+```javascript
+<script type="text/javascript">
+
+  function mediumWidget() {
+    MediumWidget.Init({
+      renderTo: "#medium-widget",
+      params: {
+        resource: "https://medium.com/usefulcoin",
+        postsPerLine: 1,
+        limit: 2,
+        picture: "big",
+        fields: ["description", "author", "claps", "publishAt"],
+        ratio: "landscape"
+      }
+    })
+  }
+
+</script>
+```
+
+React has lifecycles for components. The top three are, essentially:
+
+1. componentDidMount (**method executed after component mount**)
+2. componentDidUpdate (**method executed after component update**)
+3. componentWillUnmount (**method executed before component unmount**)
+
+To execute some function after (in this case) the Blog component mounts, we can use a
+React [hook](https://reactjs.org/docs/hooks-reference.html#useeffect). In particular, the
+**useEffect** hook (or **useLayoutEffect** if you want to execute the method before *painting*) to
+manipulate the DOM after *layout* and *paint* in a "deferred event". Biggup to Trent Yang for ELI5 to me.
+
+### useEffect
+
+Takes two arguments:
+
+1. A callback (fired after *layout* and *paint* so that it is non-blocking).
+2. An array (usually props).
+
+Three options for method execution:
+
+1. useEffect( () => window.mediumWidget(), [...] ); **triggered by changes to values in the array**
+2. useEffect( () => window.mediumWidget() ); **triggered by every render**
+3. useEffect( () => window.mediumWidget(), [] ); **triggered once like componentDidMount**
+
+
+## 2. Use CSS More
+
+It's just cleaner to add lines to the end of a CSS styling section. For example, add this to the images section:
+
+```css
+  .image #talent {
+		max-width: 150;
+	}
+```
+
+## 3. Standard React Stuff
 
 ### `npm start`
 
