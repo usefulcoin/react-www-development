@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
+import {
+  Link as ScrollToLink,
+  animateScroll
+} from "react-scroll";
+animateScroll.scrollToTop()
 
 const About = () => {
+  useEffect( () => animateScroll.scrollToTop() );
+  
   return (
     <div id="about-content-wrapper">
+      <ScrollToLink />
       <h1 class="major" id="about">ABOUT</h1>
       <p>Useful Coin is a research and strategy consultancy based in Texas. We enjoy collaborating with orangizations of all stripes on marketing
         research and strategic business development. That said, we focus on the cryptocurrency industry and outfits searching for a diligent and ethical
