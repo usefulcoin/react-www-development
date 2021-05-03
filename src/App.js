@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import {
   Link,
   Route,
@@ -25,6 +26,7 @@ import Copyright from './components/Copyright';
 
 
 const App = () => {
+  useLayoutEffect( () => document.getElementsByTagName("body")[0].removeClass('is-preload') );
   return (
     <div id="wrapper" className="fade-in">
       <Route exact path="/"><Intro /></Route>
