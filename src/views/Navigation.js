@@ -8,7 +8,7 @@ const Navigation = () => {
   let buttonClasses = "button primary large fit small"
 
   return (
-    <div id="navigation">
+    <div id="navigation" style={{margin: 0, padding: 0}}>
       <ScrollToLink />
       <ul style={{listStyle: "none", margin: "0 0 2rem 0", padding: 0}}>
         <li><Link className={buttonClasses} to="/Home">About</Link></li>
