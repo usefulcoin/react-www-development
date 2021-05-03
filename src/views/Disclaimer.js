@@ -1,6 +1,15 @@
+import { useEffect } from 'react';
+import {
+  Link as ScrollToLink,
+  animateScroll
+} from "react-scroll";
+
 const Disclaimer = () => {
+  useEffect( () => animateScroll.scrollToTop() );
+
   return (
     <div id="disclaimer-content-wrapper">
+      <ScrollToLink />
       <h1 className="major" id="disclaimer">Disclaimer</h1>
       <p>Last updated: April 10, 2018</p>
       <h2>Service Disclaimer</h2>
