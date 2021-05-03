@@ -1,5 +1,7 @@
 import React from "react";
-import { useLayoutEffect } from "react";
+import {
+  useEffect
+} from "react";
 import {
   Link,
   Route,
@@ -26,8 +28,8 @@ import Copyright from './components/Copyright';
 
 
 const App = () => {
-  useLayoutEffect( () => {
-    return () => { document.body.className = ''; }
+  useEffect( () => {
+    return () => { document.body.removeAttribute("className"); }
   } );
   return (
     <div id="wrapper" className="fade-in">
