@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 
 const About = () => {
-  useEffect(
-    () => { animateScroll.scrollToTop(); }
-  )
+  useEffect( () => { animateScroll.scrollToTop(); } )
 
   return (
     <div id="about-content-wrapper">
