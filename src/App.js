@@ -33,16 +33,7 @@ import Copyright from './components/Copyright';
 
 const App = () => {
   useEffect(
-    () => {
-      window.setTimeout(function() {
-        document.body.className = '';
-      }, 213);
-
-      return () => {
-        animateScroll.scrollToTop();
-        document.body.className = 'is-preload';
-      }
-    }
+    () => animateScroll.scrollToTop()
   );
   return (
     <div id="wrapper" className="fade-in">
