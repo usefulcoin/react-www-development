@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 function Blog() {
-  useEffect(() => window.mediumWidget(), []);
+  useEffect( () => window.mediumWidget() );
   return (
     <div id="blog-content-wrapper">
       <h1 className="major" id="blog">Blog</h1>
@@ -10,7 +10,6 @@ function Blog() {
       <p>Please follow the publication and share your feedback.</p>
     </div>
   );
-  }
 }
 
 export default Blog;
