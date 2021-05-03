@@ -4,7 +4,7 @@ import { Link as ScrollToLink } from "react-scroll";
 import { animateScroll } from "react-scroll";
 
 const Navigation = () => {
-  useEffect( () => animateScroll.scrollToTop() )
+  useEffect( return () => animateScroll.scrollToTop() )
   let buttonClasses = "button primary large fit small"
 
   return (
