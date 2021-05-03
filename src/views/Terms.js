@@ -1,6 +1,15 @@
+import { useEffect } from 'react';
+import {
+  Link as ScrollToLink,
+  animateScroll
+} from "react-scroll";
+
 const Terms = () => {
+  useEffect( () => animateScroll.scrollToTop() )
+  
   return (
     <div id="terms-content-wrapper">
+      <ScrollToLink />
       <h1 className="major" id="terms">Terms</h1>
       <p>Last updated: December 15, 2018</p>
       <h2>Terms and Conditions</h2>

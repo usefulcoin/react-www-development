@@ -1,4 +1,12 @@
+import { useEffect } from 'react';
+import {
+  Link as ScrollToLink,
+  animateScroll
+} from "react-scroll";
+
 const Talent = () => {
+  useEffect( () => animateScroll.scrollToTop() )
+
   const imgStyle = {
     width: "100%",
     maxWidth: "150px",
@@ -6,8 +14,10 @@ const Talent = () => {
     borderRadius: "50%",
     backgroundColor: "rgba(71,75,81, 0.8)"
   }
+
   return (
     <div id="talent-content-wrapper">
+      <ScrollToLink />
       <h1 className="major" id="talent">Talent</h1>
       <p>The talent behind Useful Coin is exceptional. Munair and Mason are two of the most compassionate and thoughtful geeks you'd ever want to collaborate with.</p>
       <span className="image">
