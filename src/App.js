@@ -31,7 +31,7 @@ const App = () => {
   useEffect( () => {
     window.setTimeout(function() {
       document.body.className = '';
-    }, 100);
+    }, 213);
     return () => { document.body.className = 'is-preload'; }
   } );
   return (
