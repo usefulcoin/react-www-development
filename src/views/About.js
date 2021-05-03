@@ -1,4 +1,11 @@
 import { Link } from "react-router-dom";
+import { animateScroll } from "react-scroll";
+
+useEffect(
+  scrollToTop = () => {
+    animateScroll.scrollToTop();
+  };
+)
 
 const About = () => {
   return (
