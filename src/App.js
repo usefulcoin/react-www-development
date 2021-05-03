@@ -29,7 +29,9 @@ import Copyright from './components/Copyright';
 
 const App = () => {
   useEffect( () => {
-    return () => { document.body.className = ''; }
+    window.setTimeout(function() {
+      return () => { document.body.className = ''; }
+    }, 100);
   } );
   return (
     <div id="wrapper" className="fade-in">
