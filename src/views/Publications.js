@@ -1,6 +1,15 @@
+import { useEffect } from 'react';
+import {
+  Link as ScrollToLink,
+  animateScroll
+} from "react-scroll";
+
 const Publications = () => {
+  useEffect( () => animateScroll.scrollToTop() );
+
   return (
     <div id="publications-content-wrapper">
+      <ScrollToLink />
       <h1 className="major" id="publications">Publications</h1>
       <h3>Coin Telegraph</h3>
       <p>
