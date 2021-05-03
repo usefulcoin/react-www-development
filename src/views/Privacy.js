@@ -1,6 +1,14 @@
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Link as ScrollToLink } from "react-scroll";
+import { animateScroll } from "react-scroll";
+
 const Privacy = () => {
+  useEffect( () => animateScroll.scrollToTop() )
+
   return (
     <div id="privacy-content-wrapper">
+      <ScrollToLink />
       <h1 className="major" id="privacy">Privacy</h1>
       <p>Last updated: December 15, 2018</p>
       <h2>Privacy Policy</h2>
