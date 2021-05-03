@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { Link as ScrollToLink } from "react-scroll";
 import { animateScroll } from "react-scroll";
 
