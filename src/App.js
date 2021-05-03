@@ -37,12 +37,11 @@ const App = () => {
       animateScroll.scrollToTop();
       window.setTimeout(function() {
         document.body.className = '';
-      }, 213);}
-      
-    return () => {
-      document.body.className = 'is-preload';
+      }, 213);
+
+      return () => document.body.className = 'is-preload';
     }
-  } );
+  );
   return (
     <div id="wrapper" className="fade-in">
       <ScrollToLink />
