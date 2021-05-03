@@ -2,13 +2,13 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 
-useEffect(
-  scrollToTop = () => {
-    animateScroll.scrollToTop();
-  }
-)
-
 const About = () => {
+  useEffect(
+    scrollToTop = () => {
+      animateScroll.scrollToTop();
+    }
+  )
+
   return (
     <div id="about-content-wrapper">
       <h1 class="major" id="about">ABOUT</h1>
