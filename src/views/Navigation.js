@@ -4,7 +4,10 @@ import { Link as ScrollToLink } from "react-scroll";
 import { animateScroll } from "react-scroll";
 
 const Navigation = () => {
-  useEffect( () => animateScroll.scrollToTop() )
+  useEffect( () => {
+    document.getElementById("navPanelToggle").className = "";
+    animateScroll.scrollToTop()
+  } )
   let buttonClasses = "button primary large fit small"
 
   return (
