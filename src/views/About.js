@@ -4,7 +4,7 @@ import { animateScroll } from "react-scroll";
 useEffect(
   scrollToTop = () => {
     animateScroll.scrollToTop();
-  };
+  }
 )
 
 const About = () => {
