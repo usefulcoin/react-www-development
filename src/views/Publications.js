@@ -27,7 +27,7 @@ const Publications = () => {
           https://cointelegraph.com/news/korea-s-unique-ability-to-make-its-reverse-ico-fad-permanent-expert-take
         </a>
       </p>
-      <iframe src="https://usefulcoin.substack.com/embed" width="100%" height="320" style="border:0; background:rgba(255, 255, 255, 0);" frameborder="0" scrolling="no"></iframe>
+      <iframe src="https://usefulcoin.substack.com/embed" width="100%" height="320" style={{border:0, background:rgba(255, 255, 255, 0)}} frameborder="0" scrolling="no"></iframe>
     </div>
   );
 }
