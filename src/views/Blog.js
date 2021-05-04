@@ -11,6 +11,7 @@ function Blog() {
       window.mediumWidget()
     }
   );
+  
   return (
     <div id="blog-content-wrapper">
       <ScrollToLink />
