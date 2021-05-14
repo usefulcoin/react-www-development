@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <div id="about-content-wrapper">
-      <h1 class="major" id="about">ABOUT</h1>
+      <h1 className="major" id="about">ABOUT</h1>
       <p>Useful Coin is a research and strategy consultancy based in Texas. We enjoy collaborating with orangizations of all stripes on marketing
         research and strategic business development. That said, we focus on the cryptocurrency industry and outfits searching for a diligent and ethical
         partner to bring multiple talents and an entrepreneurial mindset to their endeavor.</p>
