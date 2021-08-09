@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# build [needed for push to gh-pages branch... so do not remove the comments.]
+# /build
 
 # misc
 .DS_Store
