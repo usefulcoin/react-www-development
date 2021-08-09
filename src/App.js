@@ -8,7 +8,7 @@ import {
   Switch
 } from "react-router-dom";
 
-
+import Menu from './views/Menu';
 import Home from './views/Home';
 import About from './views/About';
 import Navigation from './views/Navigation';
@@ -42,21 +42,7 @@ const App = () => {
       <Route exact path="/"><Intro /></Route>
       <Route path="/:id"><Header /></Route>
       <Route path="/:id"><Link to="/Navigation" id="navPanelToggle" className="alt">Menu</Link></Route>
-      <nav id="nav">
-        <ul className="links">
-          <Route exact path="/:id"><li><Link to="/Home">About</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Engagements">Engagements</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Talent">Talent</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Blog">Blog</Link></li></Route>
-          <Route path="/:id"><li><Link to="/Publications">Publications</Link></li></Route>
-        </ul>
-        <ul className="icons">
-          <li><a href="https://medium.com/usefulcoin" className="icon brands fa-medium"><span className="label">Medium</span></a></li>
-          <li><a href="https://github.com/usefulcoin" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
-          <li><a href="https://twitter.com/usefulcoinllc" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-          <li><a href="https://discord.gg/4SRYBNdE3r" className="icon brands fa-discord"><span className="label">Discord</span></a></li>
-        </ul>
-      </nav>
+      <Menu />
       <div id="main">
         <Switch>
           <Route exact path="/"><About /></Route>
