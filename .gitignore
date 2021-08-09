@@ -9,7 +9,8 @@
 /coverage
 
 # build [needed for push to gh-pages branch... so do not remove the comments.]
-# /build
+#       [or uncomment and copy the directory to docs/ after configuring github pages accordingly.]
+/build
 
 # misc
 .DS_Store
