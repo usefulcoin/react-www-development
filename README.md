@@ -1,3 +1,11 @@
+# Staging with GitHub Pages
+
+1. Clone the repository.
+2. Install node modules.
+3. Run deploy script (from packages.json file).
+4. Makes sure that the **build/** directory created is not commented out in the **.gitignore** file.
+5. Push the build to the gh-pages branch (refer to Cobyism's Gist here -> https://gist.github.com/cobyism/4730490 for detailed instructions).
+
 # Learnings
 
 
