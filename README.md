@@ -8,7 +8,7 @@
 5. Run deploy script (from **packages.json** file). ```npm run build```
 6. Push the build to the gh-pages subtree **'docs/'** [refer to Cobyism's Gist for detailed instructions](https://gist.github.com/cobyism/4730490).
 
-Or run ```bash setup.bash && bash deploy.bash```.
+Or run ```bash setup.bash && bash deploy.bash``` after steps 0, 1, and 3.
 
 [Read this for help with setting up SSH keys](https://docs.github.com/en/enterprise-server@3.0/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
