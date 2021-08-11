@@ -1,3 +1,12 @@
+# Development Guide
+
+1. Clone the repository. bash```git clone git@github.com:usefulcoin/react-www-development.git```
+2. Install node modules. bash```npm i```
+3. Run deploy script (from packages.json file). bash```npm run build```
+4. Push the build to the gh-pages subtree 'docs/' (refer to Cobyism's Gist here -> https://gist.github.com/cobyism/4730490 for detailed instructions).
+
+Or run bash```bash deploy.bash```.
+
 # Learnings
 
 
