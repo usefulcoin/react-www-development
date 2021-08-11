@@ -1,11 +1,16 @@
 # Development Guide
 
+0. Setup SSH keys. ```ssh-keygen -t ed25519 -C "munair@usefulcoin.com"```
 1. Clone the repository. ```git clone git@github.com:usefulcoin/react-www-development.git```
-2. Install node modules. ```npm i```
-3. Run deploy script (from packages.json file). ```npm run build```
-4. Push the build to the gh-pages subtree 'docs/' (refer to Cobyism's Gist here -> https://gist.github.com/cobyism/4730490 for detailed instructions).
+2. Download necessary code. ```sudo apt -y update```
+3. Make react-www-development the working directory. ```cd react-www-development```
+4. Install node modules. ```npm i```
+5. Run deploy script (from **packages.json** file). ```npm run build```
+6. Push the build to the gh-pages subtree **'docs/'** (refer to Cobyism's Gist for detailed instructions)[https://gist.github.com/cobyism/4730490].
 
-Or run ```bash deploy.bash```.
+Or run ```bash setup.bash && bash deploy.bash```.
+
+(Read this for help with setting up SSH keys)[https://docs.github.com/en/enterprise-server@3.0/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent].
 
 # Learnings
 
